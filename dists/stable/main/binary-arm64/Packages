@@ -1,0 +1,109 @@
+Package: linux-bootimage-4.14.180-xiaomi-nabu
+Source: linux-android-xiaomi-nabu
+Version: 0.0.0+git20240811045328.6e27250.droidian.arrow.13.1
+Architecture: arm64
+Maintainer: Droidian porters <info@droidian.org>
+Installed-Size: 67385
+Pre-Depends: flash-bootimage (>= 4)
+Depends: linux-image-4.14.180-xiaomi-nabu (= 0.0.0+git20240811045328.6e27250.droidian.arrow.13.1)
+Filename: packages/linux-bootimage-4.14.180-xiaomi-nabu_0.0.0+git20240811045328.6e27250.droidian.arrow.13.1_arm64.deb
+Size: 68256904
+MD5sum: 5e2093de5b026aacdf88c97539b5c539
+SHA1: d86f133675a85acc9c6f8426eb185ac98042c1e6
+SHA256: a0d3bd40e5b3c346ba581a539d214322da93ca3d767daa8d5abb52544b7c3941
+Section: kernel
+Priority: optional
+Description: Linux kernel for Xiaomi Pad 5 - Android Boot Image
+ This package contains the Linux kernel for the Xiaomi Pad 5 device.
+ .
+ Note: This package ships an Android Boot Image bundled with Halium's
+ initramfs.
+
+Package: linux-bootimage-xiaomi-nabu
+Source: linux-android-xiaomi-nabu
+Version: 0.0.0+git20240811045328.6e27250.droidian.arrow.13.1
+Architecture: arm64
+Maintainer: Droidian porters <info@droidian.org>
+Installed-Size: 7
+Depends: linux-bootimage-4.14.180-xiaomi-nabu (= 0.0.0+git20240811045328.6e27250.droidian.arrow.13.1)
+Filename: packages/linux-bootimage-xiaomi-nabu_0.0.0+git20240811045328.6e27250.droidian.arrow.13.1_arm64.deb
+Size: 1344
+MD5sum: b9e580831a6dbd096d655b1a737e1891
+SHA1: 89236885dfa5498d11c1d99a40367e5a48ee66dd
+SHA256: 834a6d978343f949356d3795d46cc4b492fd1cb70b65f910c195197d53996104
+Section: kernel
+Priority: optional
+Description: Linux kernel for Xiaomi Pad 5 - Android Boot Image  (latest)
+ This package depends to the latest kernel bootimage available for the Xiaomi Pad 5.
+
+Package: linux-headers-4.14.180-xiaomi-nabu
+Source: linux-android-xiaomi-nabu
+Version: 0.0.0+git20240811045328.6e27250.droidian.arrow.13.1
+Architecture: arm64
+Maintainer: Droidian porters <info@droidian.org>
+Installed-Size: 55483
+Depends: linux-image-4.14.180-xiaomi-nabu (= 0.0.0+git20240811045328.6e27250.droidian.arrow.13.1)
+Filename: packages/linux-headers-4.14.180-xiaomi-nabu_0.0.0+git20240811045328.6e27250.droidian.arrow.13.1_arm64.deb
+Size: 8546832
+MD5sum: c5ebdc1a71c31d23ea57dcfe729fe691
+SHA1: 97a8cd0a2085f257cb74e94c96f503ba5fa128e6
+SHA256: c3348d5f8ded6a094b98dbc8641a2385a118ef774d45dbdeba4fbeddc4f2175c
+Section: kernel
+Priority: optional
+Description: Linux kernel for Xiaomi Pad 5 - Headers
+ This package contains the Linux kernel headers for the Xiaomi Pad 5 device.
+
+Package: linux-headers-xiaomi-nabu
+Source: linux-android-xiaomi-nabu
+Version: 0.0.0+git20240811045328.6e27250.droidian.arrow.13.1
+Architecture: arm64
+Maintainer: Droidian porters <info@droidian.org>
+Installed-Size: 7
+Depends: linux-headers-4.14.180-xiaomi-nabu (= 0.0.0+git20240811045328.6e27250.droidian.arrow.13.1)
+Filename: packages/linux-headers-xiaomi-nabu_0.0.0+git20240811045328.6e27250.droidian.arrow.13.1_arm64.deb
+Size: 1324
+MD5sum: 3ef56657d2bc38e370938ada586a7648
+SHA1: b184420109e5c8a7d9fee691dc463377c215277e
+SHA256: ceaef1f1fa25b35c9239f38896722a4bc2600ad52ac7bfec047f740213ef5d5f
+Section: kernel
+Priority: optional
+Description: Linux kernel for Xiaomi Pad 5 - Headers (latest)
+ This package depends to the latest kernel headers available for the Xiaomi Pad 5.
+
+Package: linux-image-4.14.180-xiaomi-nabu
+Source: linux-android-xiaomi-nabu
+Version: 0.0.0+git20240811045328.6e27250.droidian.arrow.13.1
+Architecture: arm64
+Maintainer: Droidian porters <info@droidian.org>
+Installed-Size: 27084
+Filename: packages/linux-image-4.14.180-xiaomi-nabu_0.0.0+git20240811045328.6e27250.droidian.arrow.13.1_arm64.deb
+Size: 18934340
+MD5sum: 426efddd7df013ec6536c78bad10ca0d
+SHA1: b9a346d46fc5e3502155406e2cd413dfb57f5ab7
+SHA256: 7754b5f4b2a12a583cbda03dc1f1323bb5c8b306755749e59ff15736adbe7f20
+Section: kernel
+Priority: optional
+Description: Linux kernel for Xiaomi Pad 5
+ This package contains the Linux kernel for the Xiaomi Pad 5 device.
+ .
+ Note: This package only ships the kernel image and modules, you should probably
+ look at the linux-bootimage-4.14.180-xiaomi-nabu package for a bootimage suitable
+ for Android boot loaders.
+
+Package: linux-image-xiaomi-nabu
+Source: linux-android-xiaomi-nabu
+Version: 0.0.0+git20240811045328.6e27250.droidian.arrow.13.1
+Architecture: arm64
+Maintainer: Droidian porters <info@droidian.org>
+Installed-Size: 7
+Depends: linux-image-4.14.180-xiaomi-nabu (= 0.0.0+git20240811045328.6e27250.droidian.arrow.13.1)
+Filename: packages/linux-image-xiaomi-nabu_0.0.0+git20240811045328.6e27250.droidian.arrow.13.1_arm64.deb
+Size: 1316
+MD5sum: ee99e98244b1f88a737439f2806078d4
+SHA1: eaed0a865e32a9042a8ed1046714ccc019ac9673
+SHA256: d33663697b84432477eac8d4a8822f358c44b67e332c318efeaf060f61347541
+Section: kernel
+Priority: optional
+Description: Linux kernel for Xiaomi Pad 5 (latest)
+ This package depends to the latest kernel image available for the Xiaomi Pad 5.
+

@@ -1,0 +1,25 @@
+Origin: https://Rikivt.github.io/apt
+Label: Droidian PKG
+Suite: stable
+Codename: stable
+Version: 1.0
+Architectures: arm64
+Components: main
+Description: Packages 
+Date: Wed, 14 Aug 2024 07:38:59 +0000
+MD5Sum:
+ 8f09372d51eca45f87072a6d6d722b93              200 Release
+ 567b3f431b482e546e7329ae4e22b688             4892 main/binary-arm64/Packages
+ 0cc508e9fe999b7549cdde6fcb978ebc             1240 main/binary-arm64/Packages.gz
+SHA1:
+ c5259a7ba106a44f3f0cf199dbdef829768ca994              200 Release
+ 6c3a8452690f9d77c6d66d88b6bcf372ff6299c3             4892 main/binary-arm64/Packages
+ ba3de24bc43e5ddea73a4a3b9a7a189907395d68             1240 main/binary-arm64/Packages.gz
+SHA256:
+ d11244f6f776d0e35d2f1caea3b8c4fd923048be0a510c67bc54225759bbaff9              200 Release
+ 47b37f1e48d13d69d1754e60ba5c677bbd425e7d2080c1aecabc211840ccf5b6             4892 main/binary-arm64/Packages
+ f64e314e048af73160f52ec4498cbcb780979f94261238cd9529e3cc51171850             1240 main/binary-arm64/Packages.gz
+SHA512:
+ 08da5bcfa99ce468f245ac6fe45602c29ce979cf62133332091c90a39001ccea9487a9788d079d760e921081444436778dd606b66fcd2b8d8dd99681104608ea              200 Release
+ 732f8b4f40f0dfbd1dfc650fd8ad47cb3f224bfcfedd7fc1af82c789cec3ed75e786d96fb75bff22d2e83f61300b91ef0faae0aaba23e5b892176749bf428525             4892 main/binary-arm64/Packages
+ 8dbab102ceee4dd36db26460c1d1536a804e5f7c133ddf5e92315a3694f7e28282885a58f71d9fa1610907cf46ace3d51f950321e45aee8546d7df2f63089e82             1240 main/binary-arm64/Packages.gz
